@@ -1,0 +1,29 @@
+#body {
+    height:auto;
+    width: 960px;
+    padding: 20px;
+    background-color: yellow;
+
+}
+#header {
+    height:auto;
+    width: 960px;
+    margin-bottom: 30px;
+    background-color: red;
+
+}
+#main {
+    height:auto;
+    width: 960px;
+    border: solid;
+    border: 1px;
+    border-color: green;
+
+}
+#footer {
+    height: auto;
+    width: 960px;
+    border: 1px;
+    padding: 20px;
+    background-color: black;
+}
