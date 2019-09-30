@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+}
+
+div#wrapper {
+    margin: auto;
+    width: 1000px;
+    padding: 10px;
+}
+
+body {
+    font-family: "Arial", "sans-serif";
+
+}
+
+form ul {
+    list-style-type: none;
+}
+
+form ul li {
+    padding:10px;
+}
+
+div.deel1 , div.deel2{
+    width: 50%;
+    float: left;
+
+}
+
+div.deel1 {
+    height: 316px;
+    padding: 10px;
+
+}
+
+div.deel2 {
+    height: 400px;
+}
+
+
+div.button {
+    float: right;
+}
+input[type=submit], input[type=reset]{
+    background-color: lightsteelblue;
+    color: deepskyblue;
+    font-size: 17px;
+
+}
+
+input[type=submit], input[type=reset] {
+
+}
+
+input[type=text] , input[type=label] , input[type=radio] ,
+input[type=date] , input[type=checkbox] , input[type=textarea] ,
+input[type=select]{
+    border: 4px solid rgb(238,245,251);
+    padding: 1%;
+
+}
+

@@ -1,10 +1,80 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <title>voorbeeldformulier</title>
+            <link rel="stylesheet" href="Voorbeeldformulier.css">
+        </head>
 
-</body>
-</html>
+        <body>
+            <form action="https://www.savatarian.com/html5/form.php" method="post">
+                <div id="wrapper">
+                    <ul>
+                        <li>
+                            <h1> Voorbeeld Formulier</h1>
+                        </li>
+                    </ul>
+                <div class="deel1">
+                    <ul class="deel1">
+                        <li>
+                            <label for="Voornaam">Voornaam</label>
+                            <input type="text" name="Voornaam" id="Voornaam" />
+                        </li>
+                        <li>
+                            <label for="Tussenvoegsel">Tussenvoegsel</label>
+                            <input type="text" name="Tussenvoegsel" id="Tussenvoegsel"/>
+                        </li>
+                        <li>
+                            <label for="Achternaam">Achternaam</label>
+                            <input type="text" name="Achternaam" id="Achternaam" />
+                        </li>
+                        <li>
+                            <label for="Geslacht">Geslacht</label>
+                            <input type="radio" name="Geslacht" id="Geslacht"  /> Man
+                            <input type="radio" name="Geslacht" id="Vrouw"  /> Vrouw
+                        </li>
+                        <li>
+                            <label for="Kleurogen">Kleurogen</label>
+                            <select name="Kleurogen" id="Kleurogen">
+                                <option value="Groen">Groen</option>
+                                <option value="Brown">Brown</option>
+                                <option value="Blauw">Blauw</option>
+                                <option value="Grijs">Grijs</option>
+                            </select>
+                        </li>
+                        <li>
+                            <label for="Geboortedatum">Geboortedatum</label>
+                            <input type="date" name="Geboortedatum" id="Geboortedatum" />
+                        </li>
+                        <li>
+                            <label for="Omschrijving">Omschrijving</label>
+                            <textarea rows="5" cols="35" id="Omschrijving" name="Omschrijving"></textarea>
+                        </li>
+                    </ul>
+                </div> <!-- div-deel 1 -->
+
+                <div class="deel2">
+                    <ul class="deel2">
+                        <li>
+                            <label for="Gerecht">Lekker eten :</label> </br>
+                            <input type="checkbox" name="Gerecht1" id="Gerecht" /> Sperciebonen </br>
+                            <input type="checkbox" name="Gerecht2" /> Aardappelen  </br>
+                            <input type="checkbox" name="Gerecht3" /> Hamburger
+                        </li>
+                    </ul>
+                </div> <!-- div-deel 2 -->
+
+                <div class="button">
+                    <ul class="button">
+                        <li>
+                            <input type="reset" name="Annuleer" value="Annuleer"  />
+                            <input type="submit" name="ok" value="ok" />
+                        </li>
+                    </ul>
+                </div> <!-- div-button -->
+
+                </div> <!-- div-wrapper -->
+            </form>
+
+        </body>
+    </html>
