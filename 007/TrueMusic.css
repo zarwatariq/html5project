@@ -18,6 +18,7 @@ header {
 
 image#logo {
     width: 330px;
+    height: 150px;
 }
 
 img {
@@ -76,6 +77,9 @@ section , footer {
     section#instrumenten {
         width: 60%;
         float: right;
+    }
+    img#logo {
+        height: 150px;
     }
 }
 
